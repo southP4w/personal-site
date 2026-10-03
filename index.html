@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Southpaw</title>
-		<link rel="icon" href="icons/favicon.ico">
+		<title>southPaw</title>
+		<link rel="icon" href="icons/alien.png">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
 			  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
 			  crossorigin="anonymous">
@@ -23,7 +23,7 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-			<a class="navbar-brand" href="">southPaw</a>
+			<a class="navbar-brand" href="#top" aria-label="Back to top">southPaw</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
 					aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -31,27 +31,22 @@
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="">Pricing</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="">Downloads</a>
+						<a class="nav-link" href="https://github.com/southp4w">My GitHub</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-		<div class="top-container">
-			<img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-			<h1>I'm Southpaw.</h1>
+		<div id="top"></div>
+		<div class="container-top">
+			<img class="image-ufo" src="images/ufo.png" alt="img-ufo">
+			<h1>I'm southPaw.</h1>
 			<p>a software engineer.</p>
-			<img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-			<img src="images/mountain.png" alt="mountain-img">
+			<img class="image-airplane" src="images/airplane.png" alt="img-airplane">
+			<img class="image-skyline" src="images/mountain.png" alt="img-mountain">
 		</div>
-		<div class="middle-container">
+		<div class="container-middle">
 			<div class="profile">
-				<img src="images/circle-cropped.png" alt="penny-img">
+				<img class="image-penny" src="images/penny.png" alt="penny-img">
 				<h2>Hello.</h2>
 				<div class="intro">
 					<h5>This is Penny.</h5>
@@ -63,53 +58,49 @@
 			</div>
 			<hr>
 			<div class="skills">
-				<h2>My Skills.</h2>
+				<h2>A little bit about me</h2>
 				<div class="skills-row">
-					<img class="skills-image" src="images/computer.png" alt="computer-img">
-					<h3>Object-Oriented Programming</h3>
-					<p>As software engineers, we develop a strong proficiency in the Object-Oriented Programming
-						paradigm, which is fundamental to our field of study. Our tendency towards OOP stems
-						from its intuitive approach to organizing code into modular, reusable components that model
-						real-world entities. This paradigm allows us to break down complex problems into manageable
-						objects with defined behaviors and attributes.</p>
-					<p>Languages like Java, C++, and Python serve to put into practice that understanding of key OOP
-						concepts such as encapsulation, inheritance, and polymorphism, enabling us to write more
-						efficient, maintainable, and robust code.</p>
-					<p>While my personal background is largely in Java, any software engineer knows
-						that these concepts are by no means isolated to one particular language, and as such should be
-						able to apply their understanding of this paradigm to many languages.</p>
+					<img class="image-skills" src="images/computer.png" alt="computer-img">
+					<h3>My Education</h3>
+					<p>I received my Bachelors of Science in Computer Science from CUNY Queens College. My degree focused
+					on probabilistic analysis, natural language processing, and digital image processing/computer vision.
+					</p>
+					<p>I currently work full-time as a software engineer in embedded systems.</p>
 				</div>
 				<div class="skills-row">
-					<img class="hobbies-image" src="images/tux.png" alt="tux-img">
-					<h3>Bash Scripting</h3>
-					<p>Despite mostly using Windows day-to-day, I do prefer Linux, mainly because I like scripting in
-						the Unix/Linux environment as opposed to the Windows environment.</p>
-					<p>Check out my tutorial video below of a simple script I made some time back.</p>
-					<div class="player">
-						<iframe width="560" height="315"
-								src="https://www.youtube.com/embed/RUX8OYi81Y8?si=Vza4pye2zBL-5f2K"
-								title="YouTube video player" frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								allowfullscreen></iframe>
-					</div>
+					<img class="image-hobbies" src="images/ss-one.png" alt="img-ss1">
+					<h3>My Interests</h3>
+					<p>I love science-fiction, video games, music, reading, and playing Chess.
+						I'm a big fan of Star Trek (DS9 and TNG
+						are the best, but DS9 is my favorite), and recently I've been watching The Expanse. </p>
+					<p>I grew up in the 90's and 2000's, so those years are close to my heart. Technology, music, and
+						games from that era	were a big part of my childhood. I recently started getting into FPGA gaming
+						with the MiSTer project, playing my beloved childhood games on my SuperStation One.</p>
 				</div>
 			</div>
-			<hr>
-			<div class="contact-me">
-				<h2>Get In Touch</h2>
-				<h3>Lorem ipsum dolor sit amet, non elit.</h3>
-				<p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus
-					donec dui, ornare erat.</p>
-				<a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-			</div>
+<!--			<hr>-->
+<!--			<div class="contact-me">-->
+<!--				<h2>Get in touch</h2>-->
+<!--				<h3>Lorem ipsum dolor sit amet, non elit.</h3>-->
+<!--				<p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus-->
+<!--					donec dui, ornare erat.</p>-->
+<!--				<a class="btn" href="mailto:name@email.com">CONTACT ME</a>-->
+<!--			</div>-->
 		</div>
-		<div class="bottom-container">
-			<a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-			<a class="footer-link" href="https://twitter.com/">Twitter</a>
-			<a class="footer-link" href="https://www.twitch.tv/">Twitch</a>
-			<a class="footer-link" href="https://www.discord.com/">Discord</a>
-			<a class="footer-link" href="https://github.com/southp4w">GitHub</a>
-			<p class="copyright">© 2024 Daniel @ SouthPaw Studios.</p>
+		<div class="container-bottom">
+			<a class="footer-link" href="https://github.com/southp4w" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+				<img src="icons/github.png" alt="GitHub" width="24" height="24">
+			</a>
+			<a class="footer-link" href="https://linkedin.com/in/daniel-g11001001/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+				<img src="icons/linkedin.png" alt="LinkedIn" width="24" height="24">
+			</a>
+			<a class="footer-link" href="https://youtube.com/@southpaw8347" target="_blank" rel="noopener noreferrer" aria-label="Visit my YouTube channel">
+				<img src="icons/youtube.png" alt="YouTube" width="24" height="24">
+			</a>
+			<p class="copyright">© <span id="year"></span> SouthPaw Studios.</p>
 		</div>
 	</body>
+	<script>
+		document.getElementById('year').textContent = new Date().getFullYear();
+	</script>
 </html>
